@@ -32,8 +32,8 @@ OpenVBX is open source and extensible so feel free to skin it, hack it, and sell
 
 Add this to the bottom of OpenVBX/config/config.php
 
-`$config['uri_protocol'] = 'REQUEST_URI';`
-`$config['index_page'] = '';`
+    $config['uri_protocol'] = 'REQUEST_URI';
+    $config['index_page'] = '';
 
 
 # More Resources
