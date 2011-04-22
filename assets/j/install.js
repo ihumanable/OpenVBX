@@ -55,7 +55,7 @@ OpenVBX.Installer = {
 			async : false,
 			dataType : 'json',
 			error : function(XMLHttpRequest, textStatus, errorThrown) {
-			  OpenVBX.Installer.displayError('An application error occurred. Please try again', 'HTTPStatus: ' + XMLHttpRequest.status + '<br>Error: ' + textStatus);
+			  OpenVBX.Installer.displayError('An application error occurred. Please try again');
 			}
 		});
 		return result;
